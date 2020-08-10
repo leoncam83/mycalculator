@@ -42,7 +42,7 @@ func parsear(entrada string) int {
 	return opetador
 }
 
-func leerEntrada(texto string) string {
+func LeerEntrada(texto string) string {
 	fmt.Println(texto)
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()

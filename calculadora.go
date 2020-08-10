@@ -49,7 +49,7 @@ func leerEntrada(texto string) string {
 	return scanner.Text()
 }
 
-func main() {
+/* func main() {
 
 	c := calc{}
 
@@ -60,4 +60,4 @@ func main() {
 
 	fmt.Println(valor)
 
-}
+} */
